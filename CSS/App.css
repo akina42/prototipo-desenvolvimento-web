@@ -1,0 +1,28 @@
+#titulo-page{
+    color: red;
+}
+
+.classe-teste{
+    background-color: red;
+}
+
+#descricao-breve{
+    font: italic;
+}
+
+#lista-teste{
+    color: rebeccapurple;
+}
+
+img{
+    /* border-width: 10px;
+    border-color: black;
+    border-style: dashed;
+    margin: 40px; */
+    padding: 40px;
+    width: 170px;
+    height: 170px;
+    margin-left: 15px;
+    float: right;
+}
+
