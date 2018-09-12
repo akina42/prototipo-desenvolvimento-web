@@ -36,3 +36,59 @@ nav a{
     padding: 14px 16px;
     text-decoration: none;
 }
+
+nav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.coluna-esquerda{
+    float: left;
+    width: 75%;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.imagem-fake{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+.coluna-direita{
+    float: left;
+    width: 25%;
+    background-color:#f1f1f1;
+    padding-left: 20px;
+}
+
+.principal:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 400px){
+    nav a{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .coluna-direita, .coluna-esquerda{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
